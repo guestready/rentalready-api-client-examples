@@ -1,5 +1,5 @@
 # How to obtain a refresh token
-1. Obtain a `code` at https://pms.rentalready.io/o/authorize/?response_type=code&client_id=CLIENT_ID&redirect_uri=REDIRECT_URI, substituting your own client_id and redirect_uri. This code is valid for 3 minutes.
+1. Obtain a `code` at https://pms.rentalready.io/o/authorize/?response_type=code&client_id=CLIENT_ID&redirect_uri=REDIRECT_URI, substituting your own client_id and redirect_uri. This code is valid for 1 minute.
 2. Obtain the refresh token using the code from step 1. cURL example:
 ```bash
 curl --location 'https://pms.rentalready.io/o/token/' \
